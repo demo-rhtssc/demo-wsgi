@@ -34,4 +34,4 @@ class Time(Resource):
 
 
 if __name__ == '__main__':
-    application.run(debug=True, port=os.environ.get('FLASK_PORT', 5000))
+    application.run(debug=True, host=os.environ.get('HOST', '127.0.0.1'), port=os.environ.get('FLASK_PORT', 5000))
