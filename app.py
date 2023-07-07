@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+import os
 from time import time
 from flask import Flask
 from flask_restx import Resource, Api, reqparse
@@ -32,4 +34,4 @@ class Time(Resource):
 
 
 if __name__ == '__main__':
-    application.run(debug=True)
+    application.run(debug=True, port=os.environ.get('FLASK_PORT', 5000))
