@@ -9,3 +9,4 @@ This is a sample application to demonstrate a simple API with an auto grenerated
 This is a designed to run with S2I.
 
 # RHTSSC demo
+# RHTSSC demo2
